@@ -28,6 +28,10 @@ module.exports = function (config) {
     customLaunchers: {
       ChromeHeadless: {
         base: 'Chrome',
+        browser: "Chrome",
+        browser_version: "80",
+        os: "Windows",
+        os_version: "10",
         flags: [
           '--headless',
           '--disable-gpu',
